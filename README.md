@@ -18,7 +18,8 @@ This project sets up a simple full stack environment on Kubernetes, consisting o
 - ├── nginx/    -used Clusterip
 - ├── redis/     -used Clusterip and redis default port 6379
 - ├── mysql/
-- │ └── secret.yaml
+- │ └── secret.yaml 
+-    pvc.yaml     -to retain data.
 - ├── phpmyadmin/   
 - ├── README.md
 - └── .gitignore
