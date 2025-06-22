@@ -1,0 +1,19 @@
+# Log, temp, and backup files
+*.log
+*.tmp
+*.bak
+
+# IDE folders
+.vscode/
+.idea/
+
+# Environment files
+.env
+
+# Kubernetes/Helm tool
+.kube/
+.helm/   
+
+# Ignore real Kubernetes secrets
+mysql/secret.yaml
+
